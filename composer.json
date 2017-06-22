@@ -1,0 +1,22 @@
+{
+    "name": "allens/afracore",
+    "description": "afra-framecore",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "2.5",
+        "monolog/monolog": "1.23",
+        "league/route": "3.0"
+    },
+    "license": "GPL2.0",
+    "authors": [
+        {
+            "name": "allens",
+            "email": "allensstevon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "afracore\\": "src"
+        }
+    }
+}
