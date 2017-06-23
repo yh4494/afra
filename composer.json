@@ -9,6 +9,11 @@
         "league/route": "3.0"
     },
     "license": "MIT",
+    "keywords": [
+        "handler",
+        "afra",
+        "psr-4"
+    ],
     "authors": [
         {
             "name": "allens",
@@ -18,6 +23,11 @@
     "autoload": {
         "psr-4": {
             "afracore\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.8.x-dev",
         }
     }
 }
